@@ -98,6 +98,31 @@ const entries = [
     file: "DotRipple.jsx",
     description: "A grid of dots that swell and shrink in rings, spreading out from the center like a ripple on water.",
   },
+  {
+    name: "Arc Snake",
+    file: "ArcSnake.jsx",
+    description: "A short glowing arc chases itself around a ring, fading into a trailing tail.",
+  },
+  {
+    name: "Ripple Rings",
+    file: "RippleRings.jsx",
+    description: "Three rings spreading outward from the center, staggered and fading as they grow.",
+  },
+  {
+    name: "Clock Hand",
+    file: "ClockHand.jsx",
+    description: "A faint ring of twelve ticks with a hand sweeping around the center, like a clock missing its numbers.",
+  },
+  {
+    name: "Eclipse",
+    file: "Eclipse.jsx",
+    description: "Two dots trade places on a line, the back one shrinking and dimming as it passes behind the front one.",
+  },
+  {
+    name: "Slide Grid",
+    file: "SlideGrid.jsx",
+    description: "Three dots hold three corners of a square and slide clockwise in turn, so the empty corner travels around.",
+  },
 ];
 
 export const loaders = entries.map((entry) => ({
