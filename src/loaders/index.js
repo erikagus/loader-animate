@@ -34,9 +34,9 @@ const entries = [
     description: "Five hanging balls where the outer two swing out and knock back in turn.",
   },
   {
-    name: "Orbit",
-    file: "Orbit.jsx",
-    description: "A dot circling a small center point, with a fading trail behind it.",
+    name: "Pulse",
+    file: "Pulse.jsx",
+    description: "A ring rippling outward from a center dot and fading as it grows, like a sonar ping.",
   },
   {
     name: "Typing Dots",
