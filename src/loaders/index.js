@@ -123,6 +123,16 @@ const entries = [
     file: "SlideGrid.jsx",
     description: "Three dots hold three corners of a square and slide clockwise in turn, so the empty corner travels around.",
   },
+  {
+    name: "Circular Dots",
+    file: "CircularDots.jsx",
+    description: "Eight dots on a ring, brightness stepping from one to the next like a spinning wheel.",
+  },
+  {
+    name: "Sleepy Cat",
+    file: "SleepyCat.jsx",
+    description: "A cat napping on a brick wall. Its tail sways and three Zs drift up and fade.",
+  },
 ];
 
 export const loaders = entries.map((entry) => ({
