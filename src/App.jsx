@@ -228,7 +228,13 @@ export default function App() {
 <BounceBall size={32} color="#22c55e" speed={1.5} />`}</pre>
       </section>
 
-      <footer className="foot">Built with React and CSS.</footer>
+      <footer className="foot">
+        <span>Built with React and CSS.</span>
+        <span>
+          &copy; {new Date().getFullYear()}{" "}
+          <a href="https://erikdarmawan.com">erikdarmawan.com</a>
+        </span>
+      </footer>
 
       <dialog
         ref={dialogRef}

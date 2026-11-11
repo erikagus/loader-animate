@@ -181,7 +181,9 @@ code, pre { font-family: var(--font-mono); }
   line-height: 1.7;
 }
 
-.foot { padding: 24px 16px 40px; color: var(--muted); font-size: 13px; }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; padding: 24px 16px 40px; color: var(--muted); font-size: 13px; }
+.foot a { color: var(--fg); text-underline-offset: 3px; }
+.foot a:hover { text-decoration: underline; }
 
 .code-dialog {
   width: min(720px, 92vw);
