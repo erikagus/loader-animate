@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { loaders } from "./loaders/index.js";
+import Logo from "./components/Logo.jsx";
 
 const iconProps = {
   width: 16,
@@ -142,7 +143,10 @@ export default function App() {
   return (
     <div className="shell">
       <header className="bar line-b">
-        <span className="brand">Loader Animate</span>
+        <span className="brand">
+          <Logo size={22} />
+          Loader Animate
+        </span>
         <button
           className="btn btn-icon"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
